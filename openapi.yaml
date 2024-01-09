@@ -6311,6 +6311,7 @@ components:
           description: The model used for the chat completion.
         system_fingerprint:
           type: string
+          nullable: true
           description: |
             This fingerprint represents the backend configuration that the model runs with.
 
